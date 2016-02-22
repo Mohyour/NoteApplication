@@ -23,7 +23,7 @@ module Noteapp
             @notes_list[note_id]
         end
 
-         def search(search_text)
+        def search(search_text)
             checkNoteInput search_text
              result = {}
             @notes_list.each_with_index do |text, index|
@@ -46,6 +46,7 @@ module Noteapp
             
             @notes_list.delete_at note_id
         end
+        
         def edit(note_id,note_content)
             checkNoteId note_id
             checkNoteInput note_content
