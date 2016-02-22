@@ -28,7 +28,7 @@ module Noteapp
         @notes_list.each_with_index do |text, index|
           if !(text =~ /(#{search_text})/).nil?
             result[index] = text
-            end
+          end
           end
 
         puts "Showing results for search ‘ [ < #{search_text} > ] ’"
