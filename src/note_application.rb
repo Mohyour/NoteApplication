@@ -29,7 +29,7 @@ module Noteapp
           if !(text =~ /(#{search_text})/).nil?
             result[index] = text
           end
-          end
+        end
 
         puts "Showing results for search ‘ [ < #{search_text} > ] ’"
         if !result.empty?
