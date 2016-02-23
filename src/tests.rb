@@ -71,7 +71,7 @@ RSpec.describe "NotesApplication" do
     end
 
     it 'returns the last note in notes' do
-      expect(moyosore.get (-1)).to eq 'My third note'
+      expect(moyosore.get(-1)).to eq 'My third note'
     end
 
     it 'returns the second note in notes' do
