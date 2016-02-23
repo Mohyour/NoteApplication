@@ -1,4 +1,4 @@
-require './Note_Application'
+require './note_application'
 include Noteapp
 
 RSpec.describe "NotesApplication" do

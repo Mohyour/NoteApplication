@@ -1,4 +1,4 @@
-require_relative "Note_Application"
+require_relative "note_application"
 include Noteapp
   puts "Welcome to My Notes application."
   puts "Enter you name"
